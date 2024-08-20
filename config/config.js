@@ -54,7 +54,7 @@ let config = {
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+						url: "https://ics.calendarlabs.com/71/c4aa5706/Sweden_Holidays.ics"
 					}
 				]
 			}
@@ -69,8 +69,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 55.70584,
+				lon: 13.19321
 			}
 		},
 		{
@@ -80,8 +80,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "forecast",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 55.70584,
+				lon: 13.19321
 			}
 		},
 		{
@@ -110,6 +110,10 @@ let config = {
     				ownImagePath:'config\SIGMA_Technology_Logo_2021_RGB.png',
 			}
 		},
+		{
+			module: 'funbox',
+			position: 'bottom_left',
+		}
 	]
 };
 

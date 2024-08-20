@@ -23,12 +23,12 @@ let peopleData = [
 	{
 		name: "Johanna blomberg",
 		age: 33,
-		birthdate: "1991-08-16"
+		birthdate: "1991-08-21"
 	},
 	{
 		name: "Molly blomberg",
 		age: 32,
-		birthdate: "1992-08-17"
+		birthdate: "1992-08-20"
 	}
 ];
 
