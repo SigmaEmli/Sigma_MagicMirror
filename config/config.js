@@ -102,7 +102,7 @@ let config = {
 		},
 		{
 			module: 'MMM-SimpleLogo',
-			position: 'top_left',    // This can be any of the regions.
+			position: 'top_center',    // This can be any of the regions.
 			config: {
 					title: "Sigma Technologies",
 					text: 'Sigma Technologies AB',
