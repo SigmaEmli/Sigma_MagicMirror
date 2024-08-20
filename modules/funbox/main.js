@@ -21,7 +21,7 @@ manyItems.forEach((item) => {
 	if (previousListItem && previousListItem !== target) previousListItem.classList.remove("active");
 
 	item.classList.add("active");
-	document.querySelector(`.${target}`).classList.add("active");
+	document?.querySelector(`.${target}`).classList.add("active");
 
 	previous = boxTarget;
 	previousListItem = item;

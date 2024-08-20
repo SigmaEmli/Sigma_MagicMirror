@@ -100,33 +100,6 @@
           return dateB - dateA;
         });
       }
-      // function filterData() {
-      //   const currentDate = moment().year();
-      //   const today = moment().format("YYYY-MM-DD");
-      //   peopleData.forEach((item) => {
-      //     const birthday = moment(`${currentDate}/${moment(item.birthdate).format("MM/DD")}`).format("YYYY-MM-DD");
-      //     if (birthday === today) {
-      //       birthdaypeople.push(item);
-      //     } else {
-      //       upcomingBirthdays.push(item);
-      //     }
-      //   });
-      //   const filteredData = [...birthdaypeople, ...upcomingBirthdays];
-      //   console.log(filteredData);
-
-      //   return filteredData;
-      // }
-      // function filterData() {
-      //   const currentDate = moment().year();
-      //   const today = moment().format("YYYY-MM-DD");
-      //   const filteredData = peopleData?.filter((item) => {
-      //     const birthday = moment(`${currentDate}/${moment(item.birthdate).format("MM/DD")}`).format("YYYY-MM-DD");
-      //     showCaseBirthday(item);
-      //     return birthday > today;
-      //   });
-
-      //   return filteredData;
-      // }
       function showCaseBirthday(data) {
         const today = moment().format("MM-DD");
         if (today === moment(data.birthdate).format("MM-DD")) {

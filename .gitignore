@@ -63,6 +63,8 @@ Temporary Items
 !/modules/default/**
 !/modules/README.md**
 
+/modules/funbox/funbox.html
+
 # Ignore changes to the custom css files but keep the sample and main.
 /css/*
 !/css/custom.css.sample
