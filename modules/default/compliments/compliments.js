@@ -3,8 +3,8 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: ["Hey Sigma Family!"],
-			morning: ["Good morning, handsome!", "Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Hello, beauty!", "You look Emil!", "Looking good as always!"],
+			morning: ["Good morning, handsome!", "Enjoy your day!", "Take some coffee and enjoy!"],
+			afternoon: ["Hello, beauty!", "You look great!", "Looking good as always!"],
 			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
 			"....-01-01": ["Happy new year!"]
 		},
