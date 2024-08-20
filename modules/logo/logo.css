@@ -1,0 +1,7 @@
+.logo {
+  background-image: url(./Sigmalogo.svg);
+  width: 150px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

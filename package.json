@@ -25,7 +25,11 @@
 	"main": "js/electron.js",
 	"scripts": {
 		"start": ".\\node_modules\\.bin\\electron js\\electron.js",
+<<<<<<< HEAD
 		"start:dev": ".\\node_modules\\.bin\\electron js\\electron.js dev",
+=======
+        "start:dev": ".\\node_modules\\.bin\\electron js\\electron.js dev",
+>>>>>>> develop
 		"server": "node ./serveronly",
 		"install-mm": "npm install --no-audit --no-fund --no-update-notifier --only=prod --omit=dev",
 		"install-mm:dev": "npm install --no-audit --no-fund --no-update-notifier",
